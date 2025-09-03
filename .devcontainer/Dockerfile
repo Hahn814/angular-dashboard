@@ -21,3 +21,5 @@ RUN \
     # Install Angular CLI
     && su ${USERNAME} -c "umask 0002 && npm install -g @angular/cli" \
     && npm cache clean --force > /dev/null 2>&1
+
+ENV PATH=${PATH}:/usr/local/share/npm-global/bin
