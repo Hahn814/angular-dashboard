@@ -1,0 +1,10 @@
+services:
+  app:
+    user: node
+    build:
+      context: ./../
+      dockerfile: ./.devcontainer/Dockerfile
+    command: sleep infinity
+    volumes:
+      - "./../:/usr/src/app/"
+    
