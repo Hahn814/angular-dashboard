@@ -1,0 +1,16 @@
+.shell {
+  min-height: 100vh;
+  background: var(--color-bg);
+  color: var(--color-text);
+  display: flex;
+  flex-direction: column;
+}
+.shell-main {
+  display: flex;
+  flex: 1 1 auto;
+}
+.content {
+  flex: 1 1 auto;
+  padding: 2rem;
+  background: var(--color-content-bg);
+}

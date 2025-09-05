@@ -1,0 +1,11 @@
+.sidebar {
+  background: var(--color-sidebar-bg);
+  color: var(--color-sidebar-text);
+  width: 220px;
+  min-height: 100vh;
+  padding: 1rem 0;
+}
+.sidebar a {
+  color: var(--color-sidebar-link);
+  text-decoration: none;
+}
